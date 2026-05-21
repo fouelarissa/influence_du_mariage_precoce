@@ -1,0 +1,17 @@
+Date,Age,Region,Residence,Education,Richesse,Risque (%),Diagnostic
+2026-05-20 19:52:16,25,Adamaoua,Urbain,Aucun,Le plus pauvre,58.46,ÉLEVÉ
+2026-05-20 20:04:29,25,Douala,Urbain,Secondaire,Riche,Catholique,Oui,Rarement,Régulièrement,58.46,Risque Élevé
+2026-05-20 20:29:47,25,Centre (sans Yaounde),Urbain,Superieur,Riche,Catholique,Oui,Parfois,Regulierement,58.5,Risque Eleve
+2026-05-20 20:31:14,25,Centre (sans Yaounde),Urbain,Secondaire,Riche,Catholique,Oui,Parfois,Regulierement,58.5,Risque Eleve
+2026-05-20 20:47:28,25,Adamaoua,Urbain,Aucun,Le plus pauvre,Catholique,Non,Pas du tout,Pas du tout,58.5,Risque Eleve
+2026-05-20 20:48:26,25,Adamaoua,Urbain,Secondaire,Le plus pauvre,Catholique,Non,Pas du tout,Pas du tout,58.5,Risque Eleve
+2026-05-20 20:48:53,25,Centre (sans Yaounde),Urbain,Superieur,Le plus riche,Catholique,Non,Pas du tout,Pas du tout,58.5,Risque Eleve
+2026-05-20 20:55:32,18,Adamaoua,Urbain,Aucun,Le plus pauvre,Catholique,Non,Pas du tout,Pas du tout,56.6,Risque Eleve
+2026-05-20 20:57:26,18,Yaounde,Urbain,Superieur,Le plus riche,Musulman,Oui,Parfois,Regulierement,56.6,Risque Eleve
+2026-05-20 21:50:29,31,Yaounde,Urbain,Superieur,Riche,Catholique,Oui,Parfois,Regulierement,4.3,Faible Risque
+2026-05-20 22:00:43,25,Adamaoua,Urbain,Aucun,Le plus pauvre,Catholique,Non,Pas du tout,Pas du tout,58.5,Risque Eleve
+2026-05-20 22:01:22,25,Littoral (sans Douala),Urbain,Secondaire,Moyen,Catholique,Non,Pas du tout,Pas du tout,15.8,Faible Risque
+2026-05-21 22:19:21,20,Extreme-Nord,Rural,Primaire,Le plus pauvre,Musulman,Non,Pas du tout,Pas du tout,45.0,Faible Risque
+2026-05-21 22:20:20,30,Extreme-Nord,Rural,Secondaire,Le plus pauvre,Musulman,Non,Rarement,Pas du tout,27.2,Faible Risque
+2026-05-21 22:25:29,25,Yaounde,Urbain,Aucun,Le plus pauvre,Catholique,Non,Pas du tout,Pas du tout,37.8,Faible Risque
+2026-05-21 22:31:48,25,Yaounde,Rural,Primaire,Le plus pauvre,Musulman,Non,Pas du tout,Pas du tout,31.8,Faible Risque
