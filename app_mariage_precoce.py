@@ -34,7 +34,7 @@ st.markdown("""
 # ---------------------------------------------------------------------------
 # CHEMINS
 # ---------------------------------------------------------------------------
-ROOT = Path(__file__).parent.reesolve()
+ROOT = Path(__file__).parent.resolve()
 OUTPUTS_DIR = ROOT / 'outputs'
 MODEL_PATH = OUTPUTS_DIR / 'best_model_mariage_precoce_prod.pkl'
 SCALER_PATH = OUTPUTS_DIR / 'scaler_age_prod.pkl'
