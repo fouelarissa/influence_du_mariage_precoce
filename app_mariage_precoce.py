@@ -35,7 +35,6 @@ st.markdown("""
 # CHEMINS
 # ---------------------------------------------------------------------------
 ROOT = Path.cwd()
-OUTPUTS_DIR = ROOT / 'outputs'
 MODEL_PATH = ROOT / 'best_model_mariage_precoce_prod.pkl'
 SCALER_PATH = ROOT / 'scaler_age_prod.pkl'
 DATA_PATH = ROOT / 'Dataset_Mariage_Precoce.xlsx'
