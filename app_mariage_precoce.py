@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import pickle
 from pathlib import Path
 import time
 import folium
@@ -34,8 +35,7 @@ st.markdown("""
 # ---------------------------------------------------------------------------
 # CHEMINS
 # ---------------------------------------------------------------------------
-MODEL_DIR = Path("outputs")
-MODEL_PATH = MODEL_DIR / 'best_model_mariage_precoce_prod.pkl'
+MODEL_PATH = 'best_model_mariage_precoce_prod.pkl'
 SCALER_PATH = 'scaler_age_prod.pkl'
 DATA_PATH = 'Dataset_Mariage_Precoce.xlsx'
 NEW_OBS_PATH = 'Nouvelles_Observations.csv'
@@ -182,14 +182,14 @@ st.markdown(css_code, unsafe_allow_html=True)
 @st.cache_resource
 def load_models():
     try:
-        return joblib.load(MODEL_PATH), joblib.load(SCALER_PATH)
+        return joblib.load("best_model_mariage_precoce_prod.joblib"), pkl.load("scaler_age_prod.pkl")
     except Exception:
         return None, None
 
 @st.cache_data
 def load_data():
     try:
-        return pd.read_excel(DATA_PATH, sheet_name='data')
+        return pd.read_excel("Dataset_Mariage_Precoce.xlsx", sheet_name='data')
     except Exception:
         return pd.DataFrame()
 
