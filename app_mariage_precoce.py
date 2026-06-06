@@ -34,10 +34,10 @@ st.markdown("""
 # ---------------------------------------------------------------------------
 # CHEMINS
 # ---------------------------------------------------------------------------
-ROOT = Path(__file__).parent.resolve()
+ROOT = Path.cwd()
 OUTPUTS_DIR = ROOT / 'outputs'
-MODEL_PATH = OUTPUTS_DIR / 'best_model_mariage_precoce_prod.pkl'
-SCALER_PATH = OUTPUTS_DIR / 'scaler_age_prod.pkl'
+MODEL_PATH = ROOT / 'best_model_mariage_precoce_prod.pkl'
+SCALER_PATH = ROOT / 'scaler_age_prod.pkl'
 DATA_PATH = ROOT / 'Dataset_Mariage_Precoce.xlsx'
 NEW_OBS_PATH = ROOT / 'Nouvelles_Observations.csv'
 
