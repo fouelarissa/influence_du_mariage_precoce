@@ -34,11 +34,11 @@ st.markdown("""
 # ---------------------------------------------------------------------------
 # CHEMINS
 # ---------------------------------------------------------------------------
-ROOT = Path.cwd()
-MODEL_PATH = ROOT / 'best_model_mariage_precoce_prod.pkl'
-SCALER_PATH = ROOT / 'scaler_age_prod.pkl'
-DATA_PATH = ROOT / 'Dataset_Mariage_Precoce.xlsx'
-NEW_OBS_PATH = ROOT / 'Nouvelles_Observations.csv'
+MODEL_DIR = Path("outputs")
+MODEL_PATH = MODEL_DIR / 'best_model_mariage_precoce_prod.pkl'
+SCALER_PATH = 'scaler_age_prod.pkl'
+DATA_PATH = 'Dataset_Mariage_Precoce.xlsx'
+NEW_OBS_PATH = 'Nouvelles_Observations.csv'
 
 # ---------------------------------------------------------------------------
 # CSS ET FONTAWESOME
